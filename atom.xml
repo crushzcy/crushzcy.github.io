@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zchenyu.com/"/>
-  <updated>2019-08-01T12:18:17.862Z</updated>
+  <updated>2019-08-01T12:28:37.705Z</updated>
   <id>http://zchenyu.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://zchenyu.com/2019/08/01/%E6%9D%82%E6%96%87/"/>
     <id>http://zchenyu.com/2019/08/01/杂文/</id>
     <published>2019-08-01T11:22:52.000Z</published>
-    <updated>2019-08-01T12:18:17.862Z</updated>
+    <updated>2019-08-01T12:28:37.705Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为了让我的博客稍微能有点逼格，我选择了使用hexo来发布博客，以此文来记录这次搭建hexo的过程，但总的来说，这个方式比起简书，csdn等平台来说，发布起来要多一些步骤。但是好处是，没有广告，可以有丰富的主题，插件来diy。</p><h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>搭建比较简单，直接用npm安装即可</p><h2 id="项目目录"><a href="#项目目录" class="headerlink" title="项目目录"></a>项目目录</h2><p>本文只大概讲解几个文件</p><ul><li>hexo 主目录<ul><li>public 将要被发布的目录，里面是处理好的html文件等</li><li>source 等待被处理的文件目录，里面有md文件</li><li>themes 主题</li><li>_config.yml 里面是配置，包括git地址等</li></ul></li></ul><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>hexo通过对本地的由markdown书写的文档，进行预处理，按照主题生成html文件，然后通过git发布到 git pager上。<br>然后通过浏览器就可以访问这些静态文件了。</p><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ol><li><p>帮助<br>要是别的命令不记得就算了了，但是这个帮助命令要记得啦</p><pre><code>hexo help</code></pre></li><li><p>新建<br>这个命令会帮你在source文件夹下的_post文件夹下生成md文件，预写入时间等信息</p></li></ol><pre><code>hexo new &quot;filename&quot;</code></pre><ol start="3"><li><p>生成<br>这个命令会把你写好的文件处理成html放入public文件下</p><pre><code>hexo g 或者 hexo generate</code></pre></li><li><p>发布<br>这个命令就是把public文件夹发布到指定的git仓库里面去</p><pre><code>hexo d 或者 hexo deploye</code></pre></li><li><p>删除<br>这个命令可能不叫删除，但是删除要用到它，就叫他删除吧，删除流程是，先删除md，再clean,接着 g 和 d</p><pre><code>hexo clean</code></pre></li></ol><h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><p>在md文件头由</p><pre><code>------</code></pre><p>框起来的是一些基本信息 如date tag categories title如下方式 注意格式冒号后面一个空格</p><pre><code>---title: hexodate: 2019-08-01 19:22:52tags: - hexocategories: - 杂---</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为了让我的博客稍微能有点逼格，我选择了使用hexo来发布博客，以此文来记录这次搭建hexo的过程，但总的来说，这个方式比起简书，csdn等平台来说，发布起来要多一些步骤。但是好处是，没有广告，可以有丰富的主题，插件来diy。</p><h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>搭建比较简单，直接用npm安装即可</p><h2 id="项目目录"><a href="#项目目录" class="headerlink" title="项目目录"></a>项目目录</h2><p>本文只大概讲解几个文件</p><ul><li>hexo 主目录<ul><li>public 将要被发布的目录，里面是处理好的html文件等</li><li>source 等待被处理的文件目录，里面有md文件</li><li>themes 主题</li><li>_config.yml 里面是配置，包括git地址等</li></ul></li></ul><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>hexo通过对本地的由markdown书写的文档，进行预处理，按照主题生成html文件，然后通过git发布到 git pager上。然后通过浏览器就可以访问这些静态文件了。</p><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ol><li><p>帮助<br>要是别的命令不记得就算了了，但是这个帮助命令要记得啦</p><pre><code>hexo help</code></pre></li><li><p>新建<br>这个命令会帮你在source文件夹下的_post文件夹下生成md文件，预写入时间等信息</p><pre><code>hexo new &quot;filename&quot;</code></pre></li><li><p>生成<br>这个命令会把你写好的文件处理成html放入public文件下</p><pre><code>hexo g 或者 hexo generate</code></pre></li><li><p>发布<br>这个命令就是把public文件夹发布到指定的git仓库里面去</p><pre><code>hexo d 或者 hexo deploye</code></pre></li><li><p>删除<br>这个命令可能不叫删除，但是删除要用到它，就叫他删除吧，删除流程是，先删除md，再clean,接着 g 和 d</p><pre><code>hexo clean</code></pre></li></ol><h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><p>在md文件头由</p><pre><code>------</code></pre><p>框起来的是一些基本信息 如date tag categories title如下方式 注意格式冒号后面一个空格</p><pre><code>---title: hexodate: 2019-08-01 19:22:52tags: - hexocategories: - 杂---</code></pre>]]></content>
     
     <summary type="html">
     
