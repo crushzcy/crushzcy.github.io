@@ -2,21 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2018/12/13/life/</loc>
+    <loc>http://zchenyu.com/about/index.html</loc>
+    
+    <lastmod>2019-08-01T06:21:01.731Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zchenyu.com/tag/index.html</loc>
+    
+    <lastmod>2019-08-01T06:20:06.042Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zchenyu.com/categories/index.html</loc>
+    
+    <lastmod>2019-08-01T06:18:37.149Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zchenyu.com/2018/12/13/life/</loc>
     
     <lastmod>2018-12-13T13:05:32.521Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/11/21/hello/</loc>
+    <loc>http://zchenyu.com/2018/11/21/hello/</loc>
     
     <lastmod>2018-11-21T11:32:48.257Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2018/11/21/hello-world/</loc>
+    <loc>http://zchenyu.com/2018/11/21/hello-world/</loc>
     
     <lastmod>2018-11-21T06:58:18.126Z</lastmod>
     
